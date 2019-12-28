@@ -1,5 +1,6 @@
 language: node_js
 node_js:
-  - '12'
-  - '10'
-  - '8'
+  - "12"
+  - "10"
+  - "8"
+env: CODECOV_TOKEN=132535de-2e6d-4c53-942a-e52e7edf3650
