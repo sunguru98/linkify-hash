@@ -2,7 +2,7 @@
   "name": "linkify-hash",
   "version": "1.0.0",
   "description": "Linkify Github commit Hashes",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "jest"
   },
@@ -38,6 +38,10 @@
   },
   "homepage": "https://github.com/sunguru98/linkify-hash#readme",
   "devDependencies": {
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "jsdom": "^15.2.1"
+  },
+  "dependencies": {
+    "create-html-element": "^3.0.0"
   }
 }
