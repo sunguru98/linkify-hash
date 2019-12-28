@@ -3,7 +3,7 @@
 ![NPM Version](https://img.shields.io/npm/v/linkify-hash?style=flat-square)
 [![Travis Build](https://img.shields.io/travis/com/sunguru98/linkify-hash?style=flat-square)](https://travis-ci.com/sunguru98/linkify-hash)
 ![NPM Downloads](https://img.shields.io/npm/dw/linkify-hash?style=flat-square)
-![MIT License](https://img.shields.io/github/license/sunguru98/linkify-hash)
+![MIT License](https://img.shields.io/github/license/sunguru98/linkify-hash?style=flat-square?style=flat-square)
 
 > Link your Github commit hashes
 

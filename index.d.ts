@@ -20,7 +20,7 @@ declare namespace linkifyHash {
 		 * Base URL
 		 * @default 'https://github.com'
 		 */
-		baseUrl: string;
+		baseUrl?: string;
 		/**
 		 * Type of the resultant link
 		 * `'string'` - Gives a normal string with the HTML
