@@ -4,7 +4,7 @@
 	"description": "Linkify Github commit Hashes",
 	"main": "index.js",
 	"scripts": {
-		"test": "jest && codecov"
+		"test": "jest"
 	},
 	"engines": {
 		"node": ">=8"
