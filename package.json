@@ -1,0 +1,43 @@
+{
+  "name": "linkify-hash",
+  "version": "1.0.0",
+  "description": "Linkify Github commit Hashes",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sunguru98/linkify-hash.git"
+  },
+  "keywords": [
+    "hash",
+    "hashes",
+    "commit",
+    "linkify",
+    "link",
+    "pr",
+    "pull",
+    "request",
+    "reference",
+    "github",
+    "gh",
+    "link"
+  ],
+  "author": {
+    "name": "Sundeep Charan Ramkumar",
+    "email": "webdevdesign@sundeepcharan.com",
+    "url": "https://sundeepcharan.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sunguru98/linkify-hash/issues"
+  },
+  "homepage": "https://github.com/sunguru98/linkify-hash#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
