@@ -1,7 +1,7 @@
 /// <reference lib="dom"/>
 
 declare namespace linkifyHash {
-	interface RegularOptions {
+	interface Options<T> {
 		/**
 		 * Github username
 		 */
@@ -27,12 +27,11 @@ declare namespace linkifyHash {
 		 * `'dom'` - Gives a DocumentFragemnt with the HTML
 		 * @default 'string'
 		 */
-		type?: "string" | "dom";
+		type?: T;
 	}
 
-	interface DOMOptions extends RegularOptions {
-		type: "dom";
-	}
+	type RegularOptions = Options<'string'>
+	type DOMOptions = Options<'dom'>
 }
 
 /**
@@ -69,6 +68,7 @@ declare function linkifyHash(
 	hash: string,
 	options: linkifyHash.RegularOptions
 ): string;
+
 declare function linkifyHash(
 	hash: string,
 	options: linkifyHash.DOMOptions
